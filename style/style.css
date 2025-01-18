@@ -46,13 +46,13 @@
   font-family: 2.8rem;
   font-weight: 700;
 }
-main,footer {
+main {
   max-width: 1440px;
   margin: 0px auto;
   /* background-color: rgb(218, 150, 49); */
 }
 
-main>section,footer {
+main>section {
   margin-top: 130px;
 }
 
