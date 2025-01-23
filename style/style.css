@@ -199,14 +199,30 @@ main>section {
   filter: grayscale(100%);
 }
 
+/* FOOTER STYLE */
+
+footer{
+  margin-top: 130px;
+  max-width: 1440px;
+  margin: 0px auto;
+  background-color: blanchedalmond;
+  margin-top: 130px;
+}
 .footer-title{
   font-size: 1.25rem;
   font-weight: 400;
   padding: 38px 410px;
+  white-space: nowrap;
 }
 
 @media screen and (max-width:576px) {
 
+  .footer-title{
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding:  40px;
+    white-space: normal;
+  }
   .navbar,
   .nav-links,
   .teams,
