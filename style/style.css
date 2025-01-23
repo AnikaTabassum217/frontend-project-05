@@ -21,6 +21,7 @@
 /* dark 03 */
 .text-light-gray {
   color: #727272;
+  margin-top: 24px;
 }
 
 .text-primary {
@@ -194,6 +195,7 @@ main>section {
 .sponsor-companies{
   display: grid;
   grid-template-columns: repeat(5,1fr);
+  margin-top: 50px;
 }
 .sponsor-companies img{
   filter: grayscale(100%);
